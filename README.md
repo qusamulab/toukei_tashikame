@@ -9,7 +9,7 @@
 必要なのは [uv](https://docs.astral.sh/uv/) だけです（Python も uv が入れます）。
 
 ```bash
-git clone https://github.com/ykus4/toukei_tashikame
+git clone https://github.com/qusamulab/toukei_tashikame
 cd toukei_tashikame
 uv sync
 uv run python examples/ch00/hello_confidence_interval.py
@@ -127,7 +127,7 @@ d.b.mean()   # 0.0328 ← 観測されたCVR。推定の対象であって、答
 
 **`ModuleNotFoundError: pymc`** — 第16章と第18章 case3 です。`uv sync --extra slow` を実行してください。
 
-**動かない・数字がおかしい** — [Issues](https://github.com/ykus4/toukei_tashikame/issues) に書いてください。本の誤りとして直すべきものかもしれません。
+**動かない・数字がおかしい** — [Issues](https://github.com/qusamulab/toukei_tashikame/issues) に書いてください。本の誤りとして直すべきものかもしれません。
 
 ## 自分のデータで使う
 
@@ -157,4 +157,4 @@ make run-all-slow   # PyMC も入れて全部走らせる
 MIT。業務でも私用でも自由に使ってください。改変も再配布もかまいません。
 
 - 著者: Kusama Yoshiki
-- 既刊: 『Pythonで作る暗号資産自動売買ボットの設計・検証・運用』、『Pythonで学ぶ時系列異常検知』（[hazure](https://github.com/ykus4/hazure)）
+- 既刊: 『Pythonで作る暗号資産自動売買ボットの設計・検証・運用』、『Pythonで学ぶ時系列異常検知』（[hazure](https://github.com/qusamulab/hazure)）
