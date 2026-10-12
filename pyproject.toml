@@ -22,7 +22,7 @@ slow = ["pymc>=5.10", "arviz>=0.17"]
 dev = ["pytest>=8.0", "ruff>=0.4"]
 
 [project.urls]
-Homepage = "https://github.com/ykus4/toukei_tashikame"
+Homepage = "https://github.com/qusamulab/toukei_tashikame"
 
 [build-system]
 requires = ["hatchling"]
